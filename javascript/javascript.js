@@ -4,7 +4,11 @@ for (let x = 0; x < 16; x++) {
     for (let y = 0; y < 16; y++) {
         let xy = (document.createElement("div"))
         xy.classList.add("insideBox")
-        //xy.textContent = x + " " + y
+        xy.addEventListener("mouseover", colorHover )
         refToBoxes.append(xy)
     }
 }   
+
+function colorHover(e){
+    e.target.style.backgroundColor = "black";
+}
