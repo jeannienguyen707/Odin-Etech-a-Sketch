@@ -1,16 +1,23 @@
 .containsSqrs{
     display: flex;
+    justify-content: space-evenly;
     height: auto;
-    width: auto;
+    width: 400px;
     background-color: blueviolet;
     border-style: solid;
+    gap:2px;
+    flex-wrap: wrap;
     flex:1 1 auto
+    
 }
 .insideBox{
     height: 20px;
     width: 20px;
-    background-color: blue;
+    align-content: stretch;
+
+    background-color: white;
     border: 1px black solid;
-    flex:1 1 auto
+    
+
     
 }
