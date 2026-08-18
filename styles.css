@@ -1,10 +1,16 @@
 .containsSqrs{
-    height: 400px;
-    width: 400px;
+    display: flex;
+    height: auto;
+    width: auto;
     background-color: blueviolet;
     border-style: solid;
+    flex:1 1 auto
 }
 .insideBox{
+    height: 20px;
+    width: 20px;
     background-color: blue;
     border: 1px black solid;
+    flex:1 1 auto
+    
 }

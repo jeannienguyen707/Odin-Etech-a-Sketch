@@ -4,7 +4,7 @@ for (let x = 0; x < 16; x++) {
     for (let y = 0; y < 16; y++) {
         let xy = (document.createElement("div"))
         xy.classList.add("insideBox")
-        xy.textContent = x + " " + y
+        //xy.textContent = x + " " + y
         refToBoxes.append(xy)
     }
 }   
