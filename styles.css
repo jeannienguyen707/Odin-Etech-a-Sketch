@@ -4,3 +4,7 @@
     background-color: blueviolet;
     border-style: solid;
 }
+.insideBox{
+    background-color: blue;
+    border: 1px black solid;
+}
