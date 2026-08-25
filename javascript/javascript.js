@@ -9,8 +9,9 @@ for (let x = 0; x < 16; x++) {
         xy.classList.add("insideBox")
         refToBoxes.append(xy)
     }
-}   
-
+}  
+    refToBoxes.style.width = (16 * 24) + "px"
+    refToBoxes.style.height = (16 * 24) + "px"
 
 function colorHover(e){
     e.target.style.backgroundColor = "black";
@@ -43,5 +44,8 @@ function newSqrs(num){
             xy.classList.add("insideBox")
             refToBoxes.append(xy)
         }
-}   
+    }
+    refToBoxes.style.width = (num * 24) + "px"
+    refToBoxes.style.height = (num * 24) + "px"
+
 }
